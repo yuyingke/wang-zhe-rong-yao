@@ -6,7 +6,7 @@ import time
 def tap(x, y):
     subprocess.call('adb shell input tap {} {}'.format(x + random.randint(0,8), y + random.randint(0,8)),shell = True)
     
-#最后一关(鲁班周瑜芈月)
+#最后一关大师难度(鲁班周瑜芈月)，可自行换英雄
 def start(i):
     print('下一步')
     tap(1500, 960)
