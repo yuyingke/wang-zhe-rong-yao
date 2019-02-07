@@ -40,14 +40,5 @@ def start(i):
 if __name__ == "__main__":    
     for i in range(12):
         start(i)
-    time.sleep(15)
-    
-    for i in range(12):
-        start(i)
-    time.sleep(20)
-    
-    for i in range(2):
-        start(i)
-    time.sleep(25)
-   
+    time.sleep(15)   
     pass
